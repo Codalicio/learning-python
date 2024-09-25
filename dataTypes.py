@@ -65,3 +65,25 @@ print(list3)
 list4 = [4, 5, 8, 9, 1, 7, 3, 2]
 print(list4[4])
 print(list4[-5])
+
+# Inserting elements to a list using in-built methods :
+
+# append() method :
+arr1 = [3, 5, 6, 8, 7]
+arr1.append(23)
+print(arr1, type(arr1))
+
+# insert() method :
+arr2 = [1, 3, 5, "Amit"]
+arr2.insert(0, "Raj")
+print(arr2, type(arr2))
+arr2.insert(3, 43)
+print(arr2, type(arr2))
+
+# extend() method :
+l1 = [1, 3]
+l2 = ["Amit", "Raj"]
+l1.extend(l2)
+l2.extend(l1)
+print(l1, type(l1))
+print(l2, type(l2))
