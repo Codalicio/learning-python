@@ -21,3 +21,9 @@ print("My name is", fullName, "and my age is", age, ".")
 
 # Formatted string or f-string :
 print(f"My name is {fullName} and my age is {age}.")
+
+# printing with a separator attribute (sep="") :
+x = 2
+y = 6
+z = 9
+print(x, y, z, sep="-")
