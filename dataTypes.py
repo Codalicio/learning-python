@@ -126,3 +126,21 @@ arr3[1:3] = "A"
 print(arr3, type(arr3))
 arr3[1:4] = "Amit"
 print(arr3, type(arr3))
+
+# Some in-built methods/functions for lists :
+
+# reverse() method :
+arr4 = [1, 3, 5, 7, 9]
+arr4.reverse()
+print(arr4)
+
+# copy() method (Creates a copy of a list but will be a different object) :
+arr4_copy = arr4.copy()
+print(arr4_copy, type(arr4_copy))
+print(arr4_copy == arr4)
+print(id(arr4_copy), id(arr4))
+
+# sort() method :
+arr5 = [7, 9, 5, 11, 3, 4, 10]
+arr5.sort()
+print(arr5)
