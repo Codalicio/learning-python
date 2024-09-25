@@ -18,4 +18,6 @@ print(name)
 fullName = "Amit Raj"
 age = 99
 print("My name is", fullName, "and my age is", age, ".")
+
+# Formatted string or f-string :
 print(f"My name is {fullName} and my age is {age}.")
