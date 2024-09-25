@@ -37,3 +37,26 @@ nums = [4, 5, 1, 2, 8, 3, 6, 7]
 print(min(nums))
 print(max(nums))
 print(sum(nums))
+
+# List Data Type :
+# Elements in lists are ordered, i.e., index based element position and lists are mutable.
+
+students = ["Vishwa", "Shivani", "Amit", "Raj", "Sonu"]
+print(students, type(students))
+
+# Creating list using a constructor :
+
+# list using another list :
+list1 = list(students)
+print(list1, type(list1))
+list1.append("Monu")
+print(list1)
+print(students)
+
+# list using a string :
+list2 = list("abcdefghij")
+print(list2)
+
+# list using a tuple :
+list3 = list((1, 2, "Amit", "Raj"))
+print(list3)
