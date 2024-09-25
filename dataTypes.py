@@ -87,3 +87,27 @@ l1.extend(l2)
 l2.extend(l1)
 print(l1, type(l1))
 print(l2, type(l2))
+
+# Removing/deleting elements of a list using in-built functions :
+
+# remove() method :
+l3 = [4, 5, 7, 8, 1, 34, 56]
+l3.remove(1)
+print(l3, type(l3))
+
+# If the list has two elements with the same value, then remove() will remove the first occurrence only :
+l4 = [3, 4, 6, 1, 8, 1, 9, 1]
+l4.remove(1)
+print(l4, type(l4))
+
+# pop() method :
+l5 = [7, 8, 99, 45, 43]
+poppedElement = l5.pop()
+print(poppedElement)
+print(l5, type(l5))
+
+# removing an element at a specific index using pop() method :
+l6 = [78, 12, 33, 45, 65, 85]
+poppedElement1 = l6.pop(2)
+print(poppedElement1)
+print(l6, type(l6))
