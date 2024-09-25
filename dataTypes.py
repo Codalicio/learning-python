@@ -60,3 +60,8 @@ print(list2)
 # list using a tuple :
 list3 = list((1, 2, "Amit", "Raj"))
 print(list3)
+
+# Accessing the elements of a list :
+list4 = [4, 5, 8, 9, 1, 7, 3, 2]
+print(list4[4])
+print(list4[-5])
