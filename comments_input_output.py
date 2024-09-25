@@ -12,3 +12,10 @@ tellus arcu, vel consectetur nulla commodo id. Phasellus eu tempus eros, nec bla
 # In-built input() method :
 name = input("Enter your fullname : ")
 print(name)
+
+# Output :
+# In-built print() method that can take multiple comma(, ) separated arguments :
+fullName = "Amit Raj"
+age = 99
+print("My name is", fullName, "and my age is", age, ".")
+print(f"My name is {fullName} and my age is {age}.")
