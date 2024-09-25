@@ -111,3 +111,18 @@ l6 = [78, 12, 33, 45, 65, 85]
 poppedElement1 = l6.pop(2)
 print(poppedElement1)
 print(l6, type(l6))
+
+# Replacing an element at a specific index or range of indexes in a list :
+
+arr3 = list("abcdefghi")
+arr3[2] = 'j'
+print(arr3, type(arr3))
+
+# for a range of elements :
+arr3[3:7] = "m", "n", "o", "p"
+print(arr3, type(arr3))
+
+arr3[1:3] = "A"
+print(arr3, type(arr3))
+arr3[1:4] = "Amit"
+print(arr3, type(arr3))
