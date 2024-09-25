@@ -27,3 +27,8 @@ x = 2
 y = 6
 z = 9
 print(x, y, z, sep="-")
+
+# printing with an (end="") attribute :
+print("Hello", end = " ")
+print("World", end = " ")
+print("!")
