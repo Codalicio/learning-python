@@ -144,3 +144,16 @@ print(id(arr4_copy), id(arr4))
 arr5 = [7, 9, 5, 11, 3, 4, 10]
 arr5.sort()
 print(arr5)
+
+# Sequence Data Types :
+
+# string :
+name = 'Amit'
+city = "Hajipur"
+message = '''Hello everyone, this is a message!'''
+
+fullName = "Amit Raj"
+print(len(fullName))
+print(fullName[3])
+print(fullName[-len(fullName)])
+
