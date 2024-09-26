@@ -185,3 +185,31 @@ print(str[:])
 print(str[-6:-1])
 
 print(str[-1:-12:-1])
+
+print(str[-7:4:])
+
+# upper() method :
+str1 = "amit"
+newString = str1.upper()
+print(newString)
+
+# lower() method :
+newString1 = newString.lower()
+print(newString1)
+
+# capitalize() method :
+newString2 = newString1.capitalize()
+print(newString2)
+
+# strip() method :
+newString3 = "     Amit      "
+newString4 = newString3.strip()
+print(newString4)
+
+# replace() method :
+str2 = "I am imperfect but; I am very talented, I am very hardworking, and I am super smart."
+str3 = str2.replace("I am", "We are")
+print(str3, type(str3), len(str3))
+
+str4 = str3.replace("We are", "I am", 2)
+print(str4, type(str4), len(str4))
