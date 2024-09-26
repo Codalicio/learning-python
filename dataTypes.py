@@ -335,3 +335,14 @@ print(student_details1['age'])
 print(student_details1['UID'])
 print(student_details1, type(student_details1), len(student_details1))
 
+# Some in-built methods for dictionary :
+
+# keys() method :
+print(student_details1.keys())
+
+# values() method :
+print(student_details1.values())
+
+# items() method - will give the list of tuples of the (key,value) pairs, of the dictionary :
+print(student_details1.items())
+
