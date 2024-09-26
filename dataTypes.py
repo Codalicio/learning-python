@@ -248,3 +248,24 @@ print(t3, type(t3), len(t3), t3[0])
 # tuple with only one element :
 t4 = (35, )
 print(t4, type(t4), len(t4), t4[0])
+
+# Some important in-built methods for tuple :
+
+# count() method :
+fruits = ("apple", "mango", "banana", "mango", "apple", "grapes", "mango")
+itemCount = fruits.count("apple")
+print(itemCount)
+itemCount1 = fruits.count("strawberry")
+print(itemCount1)
+
+# index() method :
+print(fruits.index("grapes"))
+
+# len() method :
+print(len(fruits))
+
+# Slicing in tuple :
+print(fruits[1:5])
+print(fruits[-7:1])
+print(fruits[-7:5])
+
