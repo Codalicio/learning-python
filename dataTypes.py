@@ -317,3 +317,8 @@ dict2 = {
 
 print(dict2, type(dict2), len(dict2))
 
+# Dictionary using the constructor method :
+
+dict3 = dict(name="Amit", age=27, place="Hajipur")
+print(dict3, type(dict3), len(dict3))
+
