@@ -226,3 +226,25 @@ print("Amit\tRaj")
 print("Amit \"Raj\"")
 print("Sonu \"Kumar\"")
 
+# Tuple :
+
+tup1 = (3, 5, 6, 9)
+print(tup1[2], len(tup1), type(tup1), tup1)
+
+# Using constructor to make a tuple :
+
+# list as a tuple :
+t1 = tuple([1, 2, 3])
+print(t1, type(t1), len(t1), t1[1])
+
+# string as an tuple :
+t2 = tuple("abcde")
+print(t2, type(t2), len(t2), t2[3])
+
+# tuple as an argument for the constructor :
+t3 = tuple((45, 78, 99))
+print(t3, type(t3), len(t3), t3[0])
+
+# tuple with only one element :
+t4 = (35, )
+print(t4, type(t4), len(t4), t4[0])
