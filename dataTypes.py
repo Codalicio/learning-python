@@ -156,4 +156,4 @@ fullName = "Amit Raj"
 print(len(fullName))
 print(fullName[3])
 print(fullName[-len(fullName)])
-
+print(fullName[0:4])
