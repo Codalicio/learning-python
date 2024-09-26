@@ -322,3 +322,16 @@ print(dict2, type(dict2), len(dict2))
 dict3 = dict(name="Amit", age=27, place="Hajipur")
 print(dict3, type(dict3), len(dict3))
 
+# Accessing the elements of a dictionary :
+
+student_details1 = {
+    'name' : 'Amit',
+    "UID" : 1,
+    "age" : 27
+}
+
+print(student_details1['name'])
+print(student_details1['age'])
+print(student_details1['UID'])
+print(student_details1, type(student_details1), len(student_details1))
+
