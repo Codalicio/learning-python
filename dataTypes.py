@@ -213,3 +213,16 @@ print(str3, type(str3), len(str3))
 
 str4 = str3.replace("We are", "I am", 2)
 print(str4, type(str4), len(str4))
+
+# Escape character in string :
+
+# line-break character(\n) :
+print("Amit\nRaj")
+
+# tab-space character(\t) :
+print("Amit\tRaj")
+
+# quote character(\"string\") :
+print("Amit \"Raj\"")
+print("Sonu \"Kumar\"")
+
