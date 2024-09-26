@@ -269,3 +269,10 @@ print(fruits[1:5])
 print(fruits[-7:1])
 print(fruits[-7:5])
 
+# Accessing the elements of a tuple :
+
+fruits1 = ("apple", "mango", "grapes", "banana", "apple")
+print(fruits1[3])
+print(fruits1[-3])
+
+# Tuples are immutable.
