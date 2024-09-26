@@ -283,3 +283,37 @@ print(True)
 print(False)
 print(100 % 2 == 0)
 print(50 % 3 == 0)
+
+# Dictionary :
+
+# Elements are stored in 'key:value' pairs in a dictionary :
+# Elements in a dictionary are unordered.
+# Dictionary are mutable.
+# The key should be unique.
+# The Data Type of the 'key' should always be immutable.
+
+student_details = {
+    'name' : 'Amit',
+    "UID" : 1,
+    "age" : 27
+}
+
+print(student_details, type(student_details))
+
+dict1 = {
+    1 : "Amit",
+    0 : "Raj",
+    True : 'Love',
+    False : 'You'
+}
+
+print(dict1, type(dict1))
+
+dict2 = {
+    3 : 'Amit',
+    2 : 'Raj',
+    True : 'Love'
+}
+
+print(dict2, type(dict2), len(dict2))
+
