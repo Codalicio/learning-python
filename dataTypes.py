@@ -157,3 +157,31 @@ print(len(fullName))
 print(fullName[3])
 print(fullName[-len(fullName)])
 print(fullName[0:4])
+
+# Some important in-built methods for strings :
+
+# String concatenation :
+first_name = "Amit"
+last_name = "Raj"
+complete_name = first_name + " " + last_name
+print(complete_name)
+
+# len() method :
+print(len(complete_name))
+
+# String Slicing :
+
+str = "Amit Raj"
+print(str[1:4])
+
+print(str[0:])
+
+print(str[:8])
+
+print(str[0:])
+
+print(str[:])
+
+print(str[-6:-1])
+
+print(str[-1:-12:-1])
