@@ -276,3 +276,10 @@ print(fruits1[3])
 print(fruits1[-3])
 
 # Tuples are immutable.
+
+# Boolean :
+
+print(True)
+print(False)
+print(100 % 2 == 0)
+print(50 % 3 == 0)
