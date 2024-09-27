@@ -346,3 +346,14 @@ print(student_details1.values())
 # items() method - will give the list of tuples of the (key,value) pairs, of the dictionary :
 print(student_details1.items())
 
+# Adding elements to a dictionary :
+
+# update() method :
+marks_details = {
+    'English' : 92,
+    'Maths' : 88,
+    'Science' : 98
+}
+
+student_details1.update(marks_details)
+print(student_details1)
