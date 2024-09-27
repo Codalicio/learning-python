@@ -357,3 +357,22 @@ marks_details = {
 
 student_details1.update(marks_details)
 print(student_details1)
+
+# Removing elements from a dictionary :
+
+# pop() method :
+poppedItem = student_details1.pop("Maths")
+print(poppedItem, student_details1, type(student_details1), len(student_details1))
+
+# popItem() method :
+poppedItem1 = student_details1.popitem()
+print(poppedItem1)
+print(student_details1, type(student_details1), len(student_details1))
+
+# del keyword :
+del student_details1["UID"]
+print(student_details1, type(student_details1), len(student_details1))
+
+student_details1.clear()
+print(student_details1, type(student_details1), len(student_details1))
+
